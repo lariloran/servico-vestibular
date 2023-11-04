@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Vestibular",
+    "dateExported": "2023-11-04T20:45:30.672Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "522af48c-f846-4308-be88-5cfe588b45e0",
+            "colId": "eb5fdbbf-e08a-4af0-ad24-93fd4a045e11",
+            "containerId": "",
+            "name": "Obter todos os Vestibulares",
+            "url": "http://localhost:8080/api/v1/vestibular",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-04T20:32:30.246Z",
+            "modified": "2023-11-04T20:40:17.981Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5a0f6308-bf3e-4474-ab8f-dcf9be0bd424",
+            "colId": "eb5fdbbf-e08a-4af0-ad24-93fd4a045e11",
+            "containerId": "",
+            "name": "Obter Vestibular por ID",
+            "url": "http://localhost:8080/api/v1/vestibular/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-11-04T20:32:30.247Z",
+            "modified": "2023-11-04T20:40:24.654Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "25a2399e-ad7c-4371-90e2-fa871580cd04",
+            "colId": "eb5fdbbf-e08a-4af0-ad24-93fd4a045e11",
+            "containerId": "",
+            "name": "Atualizar Vestibular por ID",
+            "url": "http://localhost:8080/api/v1/vestibular/1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-11-04T20:32:30.248Z",
+            "modified": "2023-11-04T20:42:58.752Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Vestibular de Verão Atualizado\",\n  \"sigla\": \"VV-2023 Atualizado\",\n  \"dataInicio\": \"2023-01-01\",\n  \"dataFim\": \"2023-12-31\",\n  \"numeroEdital\": \"ED-123 Atualizado\",\n  \"semestre\": 1,\n  \"ano\": 2023,\n  \"dataCadastro\": \"2023-11-04T14:30:00\",\n  \"ativo\": false\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "34938f06-fe9b-4366-8b3a-65b88dc1a4ca",
+            "colId": "eb5fdbbf-e08a-4af0-ad24-93fd4a045e11",
+            "containerId": "",
+            "name": "Deletar Vestibular por ID",
+            "url": "http://localhost:8080/api/v1/vestibular/1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-11-04T20:32:30.249Z",
+            "modified": "2023-11-04T20:41:01.558Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ca83ac44-69f3-42bc-8fb7-a5ed606b4d36",
+            "colId": "eb5fdbbf-e08a-4af0-ad24-93fd4a045e11",
+            "containerId": "",
+            "name": "Adicionar um Vestibular",
+            "url": "http://localhost:8080/api/v1/vestibular",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-11-04T20:32:30.250Z",
+            "modified": "2023-11-04T20:42:29.709Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Vestibular de Verão\",\n  \"sigla\": \"VV-2023\",\n  \"dataInicio\": \"2023-01-01\",\n  \"dataFim\": \"2023-12-31\",\n  \"numeroEdital\": \"ED-123\",\n  \"semestre\": 1,\n  \"ano\": 2023,\n  \"dataCadastro\": \"2023-11-04T14:30:00\",\n  \"ativo\": true\n}\n",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

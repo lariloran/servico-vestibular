@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Usuário",
+    "dateExported": "2023-11-04T20:45:19.749Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e1df86c4-e08e-433a-9039-890baa6529db",
+            "colId": "4c86a0e0-7a97-48ab-a8c5-20b247d07842",
+            "containerId": "",
+            "name": "Obter todos os Usuários",
+            "url": "http://localhost:8080/api/v1/usuario",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-04T20:32:21.120Z",
+            "modified": "2023-11-04T20:37:31.858Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0a08f889-0292-41ef-9117-7480921ee600",
+            "colId": "4c86a0e0-7a97-48ab-a8c5-20b247d07842",
+            "containerId": "",
+            "name": "Obter Usuário por ID",
+            "url": "http://localhost:8080/api/v1/usuario/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-11-04T20:32:21.121Z",
+            "modified": "2023-11-04T20:37:43.114Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "03e036a0-3402-46d4-bfea-4506e02a3b25",
+            "colId": "4c86a0e0-7a97-48ab-a8c5-20b247d07842",
+            "containerId": "",
+            "name": "Atualizar Usuário por ID",
+            "url": "http://localhost:8080/api/v1/usuario/1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-11-04T20:32:21.122Z",
+            "modified": "2023-11-04T20:39:43.797Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Rafael Rodrigues Atualizado\",\n  \"email\": \"rafael.rodrigues@gmail.com Atualizado\",\n  \"senha\": \"SuperSecreta.Com Atualizada\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ffb33436-b250-4de9-bb0e-82faeca5e8f7",
+            "colId": "4c86a0e0-7a97-48ab-a8c5-20b247d07842",
+            "containerId": "",
+            "name": "Deletar Usuário por ID",
+            "url": "http://localhost:8080/api/v1/usuario/1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-11-04T20:32:21.123Z",
+            "modified": "2023-11-04T20:38:13.706Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "bb911a58-cec5-401b-9750-53a2eb7903be",
+            "colId": "4c86a0e0-7a97-48ab-a8c5-20b247d07842",
+            "containerId": "",
+            "name": "Adicionar um Usuário",
+            "url": "http://localhost:8080/api/v1/usuario",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-11-04T20:32:21.124Z",
+            "modified": "2023-11-04T20:39:22.933Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Rafael Rodrigues\",\n  \"email\": \"rafael.rodrigues@gmail.com\",\n  \"senha\": \"SuperSecreta.Com\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

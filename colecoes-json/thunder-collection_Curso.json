@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Curso",
+    "dateExported": "2023-11-04T20:44:56.377Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e8cf1eb2-cf95-4063-8d15-9c0ebcfeff9a",
+            "colId": "2534ebcf-e020-49f0-9d02-c1dc3c0779c8",
+            "containerId": "",
+            "name": "Obter todos os cursos",
+            "url": "http://localhost:8080/api/v1/curso",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-04T20:26:28.577Z",
+            "modified": "2023-11-04T20:26:28.577Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2b424b79-5006-4fe3-9763-e0cb55323d73",
+            "colId": "2534ebcf-e020-49f0-9d02-c1dc3c0779c8",
+            "containerId": "",
+            "name": "Obter Curso por ID",
+            "url": "http://localhost:8080/api/v1/curso/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-11-04T20:26:37.921Z",
+            "modified": "2023-11-04T20:26:57.874Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "bb4dfe9c-0949-48c0-801f-c37b114b55d1",
+            "colId": "2534ebcf-e020-49f0-9d02-c1dc3c0779c8",
+            "containerId": "",
+            "name": "Atualizar Curso por ID",
+            "url": "http://localhost:8080/api/v1/curso/1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-11-04T20:27:12.323Z",
+            "modified": "2023-11-04T20:31:47.053Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Sistemas para Internet Atualizado\",\n  \"descricao\": \"Curso de tecnologia atualizado\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "fea5272e-de00-40a0-a3ba-ce654da7e48b",
+            "colId": "2534ebcf-e020-49f0-9d02-c1dc3c0779c8",
+            "containerId": "",
+            "name": "Deletar Curso por ID",
+            "url": "http://localhost:8080/api/v1/curso/1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-11-04T20:27:32.704Z",
+            "modified": "2023-11-04T20:27:44.656Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "232aa4ac-a6d9-4fdc-a85e-d0426afcf611",
+            "colId": "2534ebcf-e020-49f0-9d02-c1dc3c0779c8",
+            "containerId": "",
+            "name": "Adicionar um Curso",
+            "url": "http://localhost:8080/api/v1/curso",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-11-04T20:27:50.065Z",
+            "modified": "2023-11-04T20:31:19.356Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Sistemas para Internet\",\n  \"descricao\": \"Curso de tecnologia\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

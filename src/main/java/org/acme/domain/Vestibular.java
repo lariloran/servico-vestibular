@@ -1,8 +1,6 @@
 package org.acme.domain;
 
 import java.util.Date;
-import java.util.List;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -22,7 +20,7 @@ public class Vestibular {
     private Date dataInicio;
     private Date dataFim;
     private String numeroEdital;
-    private String semestre;
+    private int semestre;
     private int ano;
     private Date dataCadastro;
     private boolean ativo;

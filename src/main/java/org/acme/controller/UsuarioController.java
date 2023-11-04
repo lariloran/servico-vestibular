@@ -5,8 +5,6 @@ import java.util.List;
 
 import org.acme.domain.Usuario;
 import org.acme.service.UsuarioService;
-import org.acme.service.UsuarioService;
-
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 import jakarta.ws.rs.Consumes;

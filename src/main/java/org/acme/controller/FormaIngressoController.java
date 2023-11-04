@@ -3,9 +3,7 @@ package org.acme.controller;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.acme.domain.Curso;
 import org.acme.domain.FormaIngresso;
-import org.acme.service.CursoService;
 import org.acme.service.FormaIngressoService;
 
 import jakarta.inject.Inject;

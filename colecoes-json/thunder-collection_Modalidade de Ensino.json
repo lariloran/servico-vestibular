@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Modalidade de Ensino",
+    "dateExported": "2023-11-04T20:45:06.516Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2ee080b7-b838-4b95-a94a-0ade18ab3655",
+            "colId": "0e007524-0845-4e41-9b55-4b8ad0a5e579",
+            "containerId": "",
+            "name": "Obter todas as Modalidades de Ensino",
+            "url": "http://localhost:8080/api/v1/modalidade-ensino/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-04T20:32:09.762Z",
+            "modified": "2023-11-04T20:35:35.537Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "06792763-9ae6-4113-b29c-12c28275a095",
+            "colId": "0e007524-0845-4e41-9b55-4b8ad0a5e579",
+            "containerId": "",
+            "name": "Obter Modalidade de Ensino por ID",
+            "url": "http://localhost:8080/api/v1/modalidade-ensino/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-11-04T20:32:09.763Z",
+            "modified": "2023-11-04T20:35:47.057Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "93e07599-2239-400b-9879-2a040d7875dc",
+            "colId": "0e007524-0845-4e41-9b55-4b8ad0a5e579",
+            "containerId": "",
+            "name": "Atualizar Modalidade de Ensino por ID",
+            "url": "http://localhost:8080/api/v1/modalidade-ensino/1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-11-04T20:32:09.764Z",
+            "modified": "2023-11-04T20:37:11.100Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Graduação Atualizada\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0a6bb6aa-95cb-4937-aa41-5633e453f975",
+            "colId": "0e007524-0845-4e41-9b55-4b8ad0a5e579",
+            "containerId": "",
+            "name": "Deletar Modalidade de Ensino por ID",
+            "url": "http://localhost:8080/api/v1/modalidade-ensino/1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-11-04T20:32:09.765Z",
+            "modified": "2023-11-04T20:36:14.105Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ac8cb8a2-2368-4c5d-8ff8-bca0a65f5141",
+            "colId": "0e007524-0845-4e41-9b55-4b8ad0a5e579",
+            "containerId": "",
+            "name": "Adicionar uma Modalidade de Ensino",
+            "url": "http://localhost:8080/api/v1/modalidade-ensino",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-11-04T20:32:09.766Z",
+            "modified": "2023-11-04T20:36:43.991Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Graduação\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Forma de Ingresso",
+    "dateExported": "2023-11-04T20:44:17.966Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "73212049-b6b7-41f5-a4d2-53337b8cacd0",
+            "colId": "e777e5e1-a083-4aad-8fb9-a81ffbf4a2a5",
+            "containerId": "",
+            "name": "Obter todas as formas de ingresso",
+            "url": "http://localhost:8080/api/v1/forma-ingresso",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-04T20:31:53.695Z",
+            "modified": "2023-11-04T20:33:11.000Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4df80e78-96df-4eb7-8852-e985a25195b6",
+            "colId": "e777e5e1-a083-4aad-8fb9-a81ffbf4a2a5",
+            "containerId": "",
+            "name": "Obter Forma de Ingresso por ID",
+            "url": "http://localhost:8080/api/v1/forma-ingresso/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-11-04T20:31:53.696Z",
+            "modified": "2023-11-04T20:33:18.830Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fdd28f70-f83d-41be-8dd3-1eb6569dbd1d",
+            "colId": "e777e5e1-a083-4aad-8fb9-a81ffbf4a2a5",
+            "containerId": "",
+            "name": "Atualizar Forma de Ingresso por ID",
+            "url": "http://localhost:8080/api/v1/forma-ingresso/1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-11-04T20:31:53.697Z",
+            "modified": "2023-11-04T20:34:12.557Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"ENEM Atualizado\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3a72faf2-eeb5-40a6-82e5-8d77cbc55c0e",
+            "colId": "e777e5e1-a083-4aad-8fb9-a81ffbf4a2a5",
+            "containerId": "",
+            "name": "Deletar Forma de Ingresso por ID",
+            "url": "http://localhost:8080/api/v1/forma-ingresso/1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-11-04T20:31:53.699Z",
+            "modified": "2023-11-04T20:34:31.489Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "188b29a0-6444-4ddf-8e06-50f48c751cd9",
+            "colId": "e777e5e1-a083-4aad-8fb9-a81ffbf4a2a5",
+            "containerId": "",
+            "name": "Adicionar uma Forma de Ingresso",
+            "url": "http://localhost:8080/api/v1/forma-ingresso",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-11-04T20:31:53.700Z",
+            "modified": "2023-11-04T20:34:55.688Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"ENEM\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.acme.domain.Curso;
-import org.acme.domain.ModalidadeEnsino;
 import org.acme.service.CursoService;
 
 import jakarta.inject.Inject;
