@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 public class Curso {
     @Id
     @GeneratedValue
-    private int id;
+    private Long id;
     private String nome;
     private String descricao;   
 }

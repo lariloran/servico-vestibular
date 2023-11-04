@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 public class Vestibular {
     @Id
     @GeneratedValue
-    private int id;
+    private Long id;
     private String nome;
     private String sigla;
     private Date dataInicio;
@@ -26,6 +26,6 @@ public class Vestibular {
     private int ano;
     private Date dataCadastro;
     private boolean ativo;
-    private List<FormaIngresso> formasIngresso; 
-    private List<ModalidadeEnsino> modalidadesEnsino;
+    //private List<FormaIngresso> formasIngresso; 
+    //private List<ModalidadeEnsino> modalidadesEnsino;
 }

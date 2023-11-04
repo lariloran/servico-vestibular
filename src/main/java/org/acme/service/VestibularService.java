@@ -1,12 +1,11 @@
 package org.acme.service;
 
+import org.acme.repository.VestibularRepository;
+
+import jakarta.inject.Inject;
 
 public class VestibularService {
 
-    public VestibularService() {
-    }
-    
-    public String hello() {
-        return "Hello from RESTEasy Reactive";
-    }
+   @Inject
+   VestibularRepository vestibularRepository;
 }

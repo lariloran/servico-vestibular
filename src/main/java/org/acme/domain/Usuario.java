@@ -9,11 +9,11 @@ import lombok.NoArgsConstructor;
 @Entity
 @Data
 @NoArgsConstructor
-
 public class Usuario {
     @Id
     @GeneratedValue
-    private int id;
+    private Long id;
+
     private String nome;
     private String email;
     private String senha;

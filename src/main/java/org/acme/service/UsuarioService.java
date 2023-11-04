@@ -1,12 +1,11 @@
 package org.acme.service;
 
+import org.acme.repository.UsuarioRepository;
+
+import jakarta.inject.Inject;
 
 public class UsuarioService {
 
-    public UsuarioService() {
-    }
-    
-    public String hello() {
-        return "Hello from RESTEasy Reactive";
-    }
+    @Inject
+    UsuarioRepository usuarioRepository;
 }

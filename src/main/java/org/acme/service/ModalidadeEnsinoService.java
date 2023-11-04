@@ -18,7 +18,23 @@ public class ModalidadeEnsinoService {
         return modalidadeEnsinoRepository.findAll().list();
     }
 
+    public ModalidadeEnsino ObterModalidadesEnsinoPorIdService(Long id){
+        return modalidadeEnsinoRepository.findById(id);
+    }
+
     public void AdicionarModalidadeEnsinoService(ModalidadeEnsino modalidadeEnsino){
         modalidadeEnsinoRepository.persist(modalidadeEnsino);
+    }
+
+    public void AtualizarModalidadeEnsinoService(Long id,ModalidadeEnsino modalidadeEnsino){
+        ModalidadeEnsino obj = modalidadeEnsinoRepository.findById(id);
+        if(obj != null){
+            obj.setNome(modalidadeEnsino.getNome());
+            modalidadeEnsinoRepository.persist(obj);
+        }
+    }
+
+    public void RemoverModalidadeEnsinoService(Long id){
+        modalidadeEnsinoRepository.deleteById(id);
     }
 }

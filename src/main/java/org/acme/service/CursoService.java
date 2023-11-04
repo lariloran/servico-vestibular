@@ -1,12 +1,11 @@
 package org.acme.service;
 
+import org.acme.repository.CursoRepository;
+
+import jakarta.inject.Inject;
 
 public class CursoService {
 
-    public CursoService() {
-    }
-    
-    public String hello() {
-        return "Hello from RESTEasy Reactive";
-    }
+   @Inject
+   CursoRepository cursoRepository;
 }
