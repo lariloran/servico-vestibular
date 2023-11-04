@@ -1,5 +1,6 @@
 package org.acme.domain;
 
+import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -9,6 +10,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Data
 @NoArgsConstructor
+
 public class Usuario {
     @Id
     @GeneratedValue

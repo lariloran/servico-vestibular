@@ -2,9 +2,7 @@ package org.acme.service;
 
 import java.util.List;
 
-import org.acme.domain.Curso;
 import org.acme.domain.FormaIngresso;
-import org.acme.repository.CursoRepository;
 import org.acme.repository.FormaIngressoRepository;
 
 import jakarta.enterprise.context.ApplicationScoped;

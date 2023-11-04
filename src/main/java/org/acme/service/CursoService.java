@@ -3,10 +3,7 @@ package org.acme.service;
 import java.util.List;
 
 import org.acme.domain.Curso;
-import org.acme.domain.ModalidadeEnsino;
 import org.acme.repository.CursoRepository;
-import org.acme.repository.ModalidadeEnsinoRepository;
-
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 
