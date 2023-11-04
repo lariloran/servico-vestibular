@@ -1,9 +1,9 @@
 package org.acme.service;
 
 
-public class FormaIngressoRepositoryService {
+public class CursoService {
 
-    public FormaIngressoRepositoryService() {
+    public CursoService() {
     }
     
     public String hello() {
