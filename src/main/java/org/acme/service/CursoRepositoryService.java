@@ -1,9 +1,9 @@
 package org.acme.service;
 
 
-public class VestibularService {
+public class CursoRepositoryService {
 
-    public VestibularService() {
+    public CursoRepositoryService() {
     }
     
     public String hello() {

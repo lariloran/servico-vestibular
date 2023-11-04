@@ -1,12 +1,24 @@
 package org.acme.service;
 
+import java.util.List;
 
+import org.acme.domain.ModalidadeEnsino;
+import org.acme.repository.ModalidadeEnsinoRepository;
+
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
+
+@ApplicationScoped
 public class ModalidadeEnsinoService {
 
-    public ModalidadeEnsinoService() {
+    @Inject
+    ModalidadeEnsinoRepository modalidadeEnsinoRepository;
+
+    public List<ModalidadeEnsino> ObterTodasModalidadesEnsinoService(){
+        return modalidadeEnsinoRepository.findAll().list();
     }
-    
-    public String hello() {
-        return "Hello from RESTEasy Reactive";
+
+    public void AdicionarModalidadeEnsinoService(ModalidadeEnsino modalidadeEnsino){
+        modalidadeEnsinoRepository.persist(modalidadeEnsino);
     }
 }

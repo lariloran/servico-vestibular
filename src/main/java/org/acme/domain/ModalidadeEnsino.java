@@ -1,31 +1,19 @@
 package org.acme.domain;
 
-public class ModalidadeEnsino {
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Data
+@NoArgsConstructor
+
+public class ModalidadeEnsino{
+    @Id
+    @GeneratedValue
     private int id;
+
     private String nome;
-
-    public ModalidadeEnsino() {
-    }
-    
-    public ModalidadeEnsino(int id, String nome) {
-        this.id = id;
-        this.nome = nome;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-    
 }
