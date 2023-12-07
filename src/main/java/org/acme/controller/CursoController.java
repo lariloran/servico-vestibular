@@ -2,10 +2,9 @@ package org.acme.controller;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import org.acme.domain.Curso;
 import org.acme.service.CursoService;
-
+import jakarta.annotation.security.RolesAllowed;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 import jakarta.ws.rs.Consumes;
@@ -25,6 +24,7 @@ public class CursoController {
     CursoService cursoService;
 
     @GET
+    @RolesAllowed("User")    
     @Produces(MediaType.APPLICATION_JSON)
     public List<Curso> ObterTodosCurso() {
         List<Curso> cursos = new ArrayList<>();
